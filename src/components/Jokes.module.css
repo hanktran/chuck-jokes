@@ -1,0 +1,15 @@
+.jokes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .jokes {
+    grid-template-columns: 1fr;
+  }
+}

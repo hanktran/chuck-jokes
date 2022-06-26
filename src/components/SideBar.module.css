@@ -1,0 +1,30 @@
+.sidebar {
+  width: 30%;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 14px;
+}
+
+.item button {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}

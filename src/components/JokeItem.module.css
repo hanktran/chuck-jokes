@@ -1,0 +1,36 @@
+.joke-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  text-align: left;
+  flex: 1;
+}
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.title img {
+  margin-right: 10px;
+}
+
+.joke-item:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.btn {
+  text-align: right;
+}
+
+.value {
+  overflow-wrap: break-word;
+}

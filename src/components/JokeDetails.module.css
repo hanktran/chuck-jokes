@@ -1,0 +1,68 @@
+.main-content {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.tag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.top-title {
+  color: #ffbe5b;
+  font-size: 32px;
+  font-weight: 700;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #fff;
+  position: relative;
+  z-index: 11;
+  margin-top: 10px;
+  max-width: 70%;
+}
+
+.ranking {
+  text-align: right;
+  position: relative;
+  margin-top: -27px;
+}
+
+.ranking::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ffbe5b;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+.ranking span {
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-left: 10px;
+  color: #ffbe5b;
+}
+
+.desc {
+  margin-top: 20px;
+}
+
+.desc p {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding-right: 0;
+  }
+}
